@@ -11,7 +11,6 @@ const Accueil = () => {
             return res.json()
         })
         .then(data=>{
-            // console.log(data);
             setKasa(data);
         })
     })

@@ -1,6 +1,12 @@
+import creed from "../assets/Assassins-Creed®-Origins__3.jpeg"
 const Propos = () => {
     return (
-        <h2>propos page</h2>
+        <div>
+            <section className="header">         
+                <img src={creed} alt='paysage' className="pic" />
+                <h2>A Propos</h2>
+            </section>
+        </div>
     );
 }
  
