@@ -1,11 +1,14 @@
 import { BrowserRouter as Router,Route, Switch } from "react-router-dom";
 import Accueil from "../components/accueil";
+// import Footer from "../components/footer";
 import Logement from "../components/logement";
+import NavBar from "../components/navBar";
 import NotFound from "../components/notFound";
 import Propos from "../components/propos";
 const Routeur = () => {
     return (
-        <Router>      
+        <Router>   
+            <NavBar/>   
             <Switch>
                 <Route  exact path="/">
                     <Accueil/>
@@ -20,6 +23,7 @@ const Routeur = () => {
                     <NotFound/>
                 </Route>
             </Switch>
+            {/* <Footer/> */}
         </Router>                    
     );
 }
