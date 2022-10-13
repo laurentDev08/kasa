@@ -1,10 +1,12 @@
 import creed from "../assets/Assassins-Creed®-Origins__3.jpeg"
+import "../style/propos.css";
+import DropDown from "./drop-down";
 const Propos = () => {
     return (
         <div>
             <section className="header">         
                 <img src={creed} alt='paysage' className="pic" />
-                <h2>A Propos</h2>
+                   <DropDown/>             
             </section>
         </div>
     );

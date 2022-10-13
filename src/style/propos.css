@@ -1,0 +1,44 @@
+.content-text{
+    padding: 20px;
+    width: 1023px;
+    display: inline-block;
+    position:relative;
+    top: 20px;
+}
+.btn{
+    width: 1023px;
+    height: 47px;
+    background-color: #FF6060;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon h4{
+    padding: 5px;
+    margin-left: 10px;
+   
+}
+.icon .fa-solid{
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.text{
+    color:#FF6060;
+    background-color: rgb(243, 238, 238);
+    padding: 20px;
+    border-radius: 5px;    
+    /* display: none; */
+}
+.text p{
+    text-align: start;
+    width: 900px;
+    padding-top: 10px;
+}
