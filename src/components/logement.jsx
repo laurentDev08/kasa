@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
+import Slideshow from "./slideshow";
 const Logement = () => {
     const {id} =useParams();
     const [kasa, setKasa] = useState(null);
@@ -18,6 +19,7 @@ const Logement = () => {
     </div>
     return (
         <div>
+            <Slideshow cover= {kasa.cover} gallery = {kasa.pictures} />
              <h2>{kasa.title}</h2>
              <div className=""> {kasa.location} </div>
              <div>
