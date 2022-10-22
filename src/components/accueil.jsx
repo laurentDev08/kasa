@@ -20,7 +20,7 @@ const Accueil = () => {
             <section className="header">         
                 <img src={dbz} alt='paysage' className="pic" />
             </section>
-            { kasa && <Card kasa={kasa} />}
+            { kasa && <Card kasas={kasa} />}
         </div>        
     );
 }

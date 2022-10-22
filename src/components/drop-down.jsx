@@ -1,3 +1,5 @@
+import Accordeon from "./accordeon";
+
 const DropDown = () => {
     return (
         <div>        
@@ -43,22 +45,12 @@ const DropDown = () => {
                         </p>     
                     </div>                         
             </div>
-             <div className="content-text">
-                <button className="btn">
-                    <div className="icon">
-                        <h4>Sécurité</h4>
-                        <i className="fa-solid fa-chevron-down"></i>
-                    </div>                                           
-                </button> 
-                    <div className="text">
-                        <p>La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, 
+            
+            <Accordeon titre="Sécurité" contenu= {`La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, 
                             chaque logement correspond aux critères de sécurité établis par nos services. 
                             En laissant une note aussi bien à l'hôte qu'au locataire, 
                             cela permet à nos équipes de vérifier que les standards sont bien respectés. 
-                            Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes.
-                        </p>     
-                    </div>                         
-            </div>
+                            Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes.`}/>
         </div>
     );
 }

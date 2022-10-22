@@ -6,6 +6,7 @@
     top: 20px;
 }
 .btn{
+    cursor: pointer;
     width: 1023px;
     height: 47px;
     background-color: #FF6060;
