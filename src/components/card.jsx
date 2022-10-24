@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import card from "../assets/card.png";
 const Card = ({kasas} ) => {
     return (     
         <div className="cont">

@@ -10,7 +10,7 @@ const Logement = () => {
             return res.json()
         })
         .then(data=>{
-            const logementEnCour = data.find((k)=>k.id == id)
+            const logementEnCour = data.find((k)=>k.id === id)
             setKasa(logementEnCour);
         })
     })
@@ -21,7 +21,7 @@ const Logement = () => {
         <div>
             <Slideshow cover= {kasa.cover} gallery = {kasa.pictures} />
              <h2>{kasa.title}</h2>
-             <div className=""> {kasa.location} </div>
+             <div> {kasa.location} </div>
              <div>
                 <div> {kasa.host.name} </div>
                 <img src={kasa.host.picture} alt="" />

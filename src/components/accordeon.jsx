@@ -1,4 +1,3 @@
-import {usestate} from "react"
 import { useState } from "react";
 const Accordeon = ({titre,contenu}) => {
     const [openAcc, setOpenAcc] = useState(false);
@@ -11,14 +10,8 @@ const Accordeon = ({titre,contenu}) => {
                                 <i className="fa-solid fa-chevron-down"></i>}
                     </div>                                           
                 </button> 
-                {openAcc &&
-                  <div className="text">
-                    
-                        <p> {contenu}
-                        </p>     
-                    </div> }
-                        
-            </div>
+                {openAcc && <div className="text"><p> {contenu}</p></div>}                        
+        </div>
     );
 }
  

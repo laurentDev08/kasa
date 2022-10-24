@@ -37,8 +37,11 @@ section {
     width: 310px;
     position: relative;
     font-size: 18px;
+    font-weight: bold;
+    left: 10px;
     top: -70px;
-    color: white;
+    color: rgb(211, 211, 211);
+    text-shadow: 0px 0px 3px #FF6060 ;
 }
 .linked{
     text-decoration: none;
