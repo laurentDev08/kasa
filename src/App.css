@@ -4,7 +4,6 @@
   text-align: center;
   margin: 0;
   padding: 0;
-  /* max-width: 1240px; */
 }
 .content{
   display:flex;
@@ -40,6 +39,28 @@
   top: 5px;
 }
 .footer{
+  color: white;
+}
+.foot{
+  height: 200px;
+  position: relative;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: black;
   color: white;
+  letter-spacing: 5px;
+}
+.foot h2{
+  font-size: 50px;
+}
+.foot img{
+  width: 30px;
+  position: relative;
+  top: 5px;
+}
+.para{
+  position: relative;
+  font-size: 20px;
 }

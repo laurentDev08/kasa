@@ -1,9 +1,17 @@
+import pic from "../assets/VectorK.png";
 const Footer = () => {
-    return ( 
+    return (         
         <div className="footer">
-            <h1>foot page</h1>
-        </div>
-        
+            <div className="foot">
+                <h2>K</h2>
+                <img src={pic} alt=""/>
+                <h2>s</h2>
+                <h2>a</h2>                
+            </div> 
+            <div className="para">
+                <p>@ 2020 Kasa.All rights reserved</p>
+            </div>                             
+        </div>         
     );
 }
  

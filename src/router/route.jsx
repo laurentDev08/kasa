@@ -1,6 +1,5 @@
 import { BrowserRouter as Router,Route, Switch } from "react-router-dom";
 import Accueil from "../components/accueil";
-// import Footer from "../components/footer";
 import Logement from "../components/logement";
 import NavBar from "../components/navBar";
 import NotFound from "../components/notFound";
@@ -23,7 +22,7 @@ const Routeur = () => {
                     <NotFound/>
                 </Route>
             </Switch>
-            {/* <Footer/> */}
+           
         </Router>                    
     );
 }

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+
+.push{
+    width: 600px;
+    height: 47px;
+    background-color: #FF6060;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.contenu{
+    width: 560px;
+    background-color: rgb(246, 246, 246);
+    color: #FF6060;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    left:210px;
+}

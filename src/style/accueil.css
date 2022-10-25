@@ -41,7 +41,7 @@ section {
     left: 10px;
     top: -70px;
     color: rgb(211, 211, 211);
-    text-shadow: 0px 0px 3px #FF6060 ;
+    text-shadow: 0px 0px 3px black ;
 }
 .linked{
     text-decoration: none;

@@ -33,10 +33,9 @@
 }
 .text{
     color:#FF6060;
-    background-color: rgb(243, 238, 238);
+    background-color: rgb(246, 246, 246);
     padding: 20px;
     border-radius: 5px;    
-    /* display: none; */
 }
 .text p{
     text-align: start;
