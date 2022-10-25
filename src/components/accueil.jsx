@@ -16,7 +16,7 @@ const Accueil = () => {
     })
 
     return ( 
-        <div>
+        <div className="accueil">
             <section className="header">         
                 <img src={dbz} alt='paysage' className="pic" />
             </section>

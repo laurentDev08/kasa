@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
 *{
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
+  /* text-align: center; */
   margin: 0;
   padding: 0;
+}
+.App{
+  width: 80%;
+  margin: auto;
+  max-width: 1240px;
 }
 .content{
   display:flex;
@@ -39,17 +44,18 @@
   top: 5px;
 }
 .footer{
+  height: 200px;
+  margin-inline: -27%;
+  background: black;
   color: white;
+  padding-top: 50px;
+  margin-top: 15px;
 }
 .foot{
-  height: 200px;
-  position: relative;
-  top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: black;
-  color: white;
+ 
   letter-spacing: 5px;
 }
 .foot h2{
@@ -61,6 +67,14 @@
   top: 5px;
 }
 .para{
-  position: relative;
+  width: 100%;
+  text-align: center;
+  color: white;
   font-size: 20px;
+}
+.orange{
+  color: #FF6060;
+}
+.grey{
+  color:grey;
 }

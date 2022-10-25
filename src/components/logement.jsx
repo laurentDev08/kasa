@@ -4,6 +4,7 @@ import Slideshow from "./slideshow";
 import "../style/logement.css"
 import Details from "./details";
 import Footer from "./footer";
+import Stars from "./stars";
 const Logement = () => {
     const {id} =useParams();
     const [kasa, setKasa] = useState(null);
@@ -22,25 +23,34 @@ const Logement = () => {
     </div>
     return (
         <div>
-            <Slideshow cover= {kasa.cover} gallery = {kasa.pictures} />            
+            <Slideshow cover= {kasa.cover} gallery = {kasa.pictures} />  
+            <div className="kasaheading">
+                         
             <div className="kasaTitre">
                 <h2 >{kasa.title}</h2>
                 <div className="location"> {kasa.location} </div>
-            </div>            
+                <div className="tags">{kasa.tags.map((tag,index)=><span key= {index} className="tag"> {tag} </span> )} </div>
+            </div> 
+            <div>                           
              <div className="host">
                 <div className="name"> {kasa.host.name} </div>
                 <img src={kasa.host.picture} alt="" />
+                
             </div>
+            <Stars note = {kasa.rating} />
+            </div>
+            </div> 
             <div className="accord">
-                <div className="description">
+               
                     <Details titre="Description" contenu = {kasa.description} className="descript"/>
-                </div>
-                <div className="equipement">
-                     <Details titre="Equipement" contenu = {
+            
+              
+                     <Details titre="Equipements" contenu = {
                         <ul>
-                            <li>{kasa.equipments}</li>
+                            {kasa.equipments.map((equipment,index)=>
+                            <li key={index} >{equipment}</li>)}
                         </ul>}/>
-                </div>               
+                             
             </div>  
             <Footer/>         
         </div>       

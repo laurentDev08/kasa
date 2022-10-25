@@ -11,7 +11,7 @@ const Details = ({titre,contenu}) => {
                                 <i className="fa-solid fa-chevron-down"></i>}
                     </div>                                           
                 </button> 
-                {openAcc && <div className="contenu"><p> {contenu}</p></div>}                        
+                {openAcc && <div className="contenu"> {contenu}</div>}                        
         </div>
     );
 }

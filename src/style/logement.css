@@ -1,25 +1,26 @@
 *{
     margin: 0;
 }
+.kasaheading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 .kasaTitre{
-    position: absolute;
-    left: 380px;
     color: #FF6060;
     padding-top: 20px;
+    text-align: left;
 }
 .kasaTitre h2{
     font-size: 35px;
-}
-.kasaTitre .location{
-    position: absolute;
 }
 .host{
     display: flex;
     align-items: center;
     padding-top: 20px;
     color:#FF6060 ;
-    position: relative;
-    left: 73.5%;
+    /* position: relative;
+    left: 73.5%; */
 }
 .host img{
     border-radius: 50%;
@@ -43,4 +44,11 @@
 .equipement{
     position: relative;
     right: 170px;
+}
+.tag{
+    color: white;
+    background-color: #FF6060;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 12px;
 }
