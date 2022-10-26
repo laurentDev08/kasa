@@ -1,10 +1,10 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Slideshow from "./slideshow";
+import Slideshow from "../components/slideshow";
 import "../style/logement.css"
-import Details from "./details";
-import Footer from "./footer";
-import Stars from "./stars";
+import Details from "../components/details";
+import Footer from "../components/footer";
+import Stars from "../components/stars";
 const Logement = () => {
     const {id} =useParams();
     const [kasa, setKasa] = useState(null);
@@ -34,23 +34,18 @@ const Logement = () => {
             <div>                           
              <div className="host">
                 <div className="name"> {kasa.host.name} </div>
-                <img src={kasa.host.picture} alt="" />
-                
+                <img src={kasa.host.picture} alt="" />                
             </div>
             <Stars note = {kasa.rating} />
             </div>
             </div> 
-            <div className="accord">
-               
-                    <Details titre="Description" contenu = {kasa.description} className="descript"/>
-            
-              
+            <div className="accord">               
+                    <Details titre="Description" contenu = {kasa.description} className="descript"/>                          
                      <Details titre="Equipements" contenu = {
                         <ul>
                             {kasa.equipments.map((equipment,index)=>
                             <li key={index} >{equipment}</li>)}
-                        </ul>}/>
-                             
+                        </ul>}/>                         
             </div>  
             <Footer/>         
         </div>       

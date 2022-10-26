@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import "../style/accueil.css";
 import dbz from "../assets/dbfz.jpg"
-import Card from "./card";
-import Footer from "./footer";
+import Card from "../components/card";
+import Footer from "../components/footer";
 const Accueil = () => {
     const [kasa, setKasa] = useState(null);
     useEffect(()=>{

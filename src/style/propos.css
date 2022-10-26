@@ -5,6 +5,14 @@
     position:relative;
     top: 20px;
 }
+.content-btn{
+    padding: 20px;
+    width: 1023px;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
 .btn{
     cursor: pointer;
     width: 1023px;

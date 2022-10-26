@@ -2,7 +2,7 @@ import { useState } from "react";
 const Accordeon = ({titre,contenu}) => {
     const [openAcc, setOpenAcc] = useState(false);
     return (
-        <div className="content-text">
+        <div className="content-btn">
                 <button className="btn"  onClick={()=>setOpenAcc(!openAcc)}>
                     <div className="icon">
                         <h4>{titre}</h4>

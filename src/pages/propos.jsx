@@ -1,7 +1,7 @@
 import creed from "../assets/Assassins-Creed®-Origins__3.jpeg"
 import "../style/propos.css";
-import DropDown from "./drop-down";
-import Footer from "./footer";
+import DropDown from "../components/drop-down";
+import Footer from "../components/footer";
 const Propos = () => {
     return (
         <div>

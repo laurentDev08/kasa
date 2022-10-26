@@ -45,10 +45,15 @@
     position: relative;
     right: 170px;
 }
+.tags{
+    padding-top: 30px;
+}
 .tag{
     color: white;
     background-color: #FF6060;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
     padding: 5px;
-    font-size: 12px;
+    font-size: 15px;
+    
 }

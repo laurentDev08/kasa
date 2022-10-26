@@ -1,9 +1,9 @@
 import { BrowserRouter as Router,Route, Switch } from "react-router-dom";
-import Accueil from "../components/accueil";
-import Logement from "../components/logement";
+import Accueil from "../pages/accueil";
+import Logement from "../pages/logement";
 import NavBar from "../components/navBar";
-import NotFound from "../components/notFound";
-import Propos from "../components/propos";
+import NotFound from "../pages/notFound";
+import Propos from "../pages/propos";
 const Routeur = () => {
     return (
         <Router>   
