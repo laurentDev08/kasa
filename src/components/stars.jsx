@@ -7,9 +7,7 @@ const Stars = ({note}) => {
        rating.push(<i key= {index} className="fa-solid fa-star grey"></i>)        
     }
     return (
-        <div> {rating} 
-
-        </div>
+        <div> {rating} </div>
     );
 }
  

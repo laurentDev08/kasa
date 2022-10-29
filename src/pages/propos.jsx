@@ -1,4 +1,4 @@
-import creed from "../assets/Assassins-Creed®-Origins__3.jpeg"
+import creed from "../assets/montagne2.jpg"
 import "../style/propos.css";
 import DropDown from "../components/drop-down";
 import Footer from "../components/footer";

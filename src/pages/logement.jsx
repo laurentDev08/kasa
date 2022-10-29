@@ -24,20 +24,21 @@ const Logement = () => {
     return (
         <div>
             <Slideshow cover= {kasa.cover} gallery = {kasa.pictures} />  
-            <div className="kasaheading">
-                         
-            <div className="kasaTitre">
-                <h2 >{kasa.title}</h2>
-                <div className="location"> {kasa.location} </div>
-                <div className="tags">{kasa.tags.map((tag,index)=><span key= {index} className="tag"> {tag} </span> )} </div>
-            </div> 
-            <div>                           
-             <div className="host">
-                <div className="name"> {kasa.host.name} </div>
-                <img src={kasa.host.picture} alt="" />                
-            </div>
-            <Stars note = {kasa.rating} />
-            </div>
+            <div className="kasaheading">                         
+                    <div className="kasaTitre">
+                        <h2 >{kasa.title}</h2>
+                        <div className="location"> {kasa.location} </div>               
+                        <div className="tags">{kasa.tags.map((tag,index)=><span key= {index} className="tag"> {tag} </span> )} </div>                            
+                    </div> 
+                    <div>                           
+                        <div className="host">
+                            <div className="name"> {kasa.host.name} </div>
+                            <img src={kasa.host.picture} alt="" />                
+                        </div>
+                        <div className="rateStars">
+                            <Stars note = {kasa.rating}/>
+                        </div>            
+                    </div>
             </div> 
             <div className="accord">               
                     <Details titre="Description" contenu = {kasa.description} className="descript"/>                          

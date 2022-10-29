@@ -19,8 +19,6 @@
     align-items: center;
     padding-top: 20px;
     color:#FF6060 ;
-    /* position: relative;
-    left: 73.5%; */
 }
 .host img{
     border-radius: 50%;
@@ -52,8 +50,44 @@
     color: white;
     background-color: #FF6060;
     border-radius: 10px;
-    margin-right: 10px;
+    margin-right: 10px;    
     padding: 5px;
-    font-size: 15px;
-    
+    font-size: 15px;    
+}
+@media screen and (min-width:450px) and (max-width:840px) {
+    .kasaTitre h2 {
+        font-size: 18px;
+    }
+    .host{
+        position: relative;
+        top: 80px;
+        left: -180px;
+    }
+    .host img{
+        margin-top: 10px;
+        width: 80px;
+        height: 80px;
+    }
+    .location{
+        font-size: 13px;
+    }
+    .location, .tags{
+        width: 360px;
+    }
+    .tags{
+        margin-top: -15px;
+    }
+    .tag{
+        font-size: 10px;
+    }
+    .rateStars{
+        position: relative;
+        top: 10px;
+        left: -360px;
+    }
+    .accord{
+        margin-top: 40px;
+        display: block;
+        margin-left: -20px;
+    }
 }

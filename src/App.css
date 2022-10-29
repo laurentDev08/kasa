@@ -77,3 +77,19 @@
 .grey{
   color:grey;
 }
+ @media screen and (min-width:450px) and (max-width:840px){
+    .logo{
+      font-size: 25px;
+    }
+    .logo img{
+      width: 20px;
+    }
+    .link{
+      margin-top: 10px;
+      position: relative;
+      left: 20px;
+    }
+    .lien{
+      font-size: 18px;
+    }
+ }

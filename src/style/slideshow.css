@@ -26,3 +26,11 @@
 .next{
     right: 10px;
 }
+@media screen and (min-width:450px) and (max-width:840px) {
+    .slideshow{
+        height: 250px;
+    }
+    .slideshow button{
+        font-size: 30px;
+    }
+}

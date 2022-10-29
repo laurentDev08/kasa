@@ -28,3 +28,11 @@
 .contenu ul li{
     text-align: left;
 }
+@media screen and (min-width:450px) and (max-width:840px) {
+    .push{
+        width: 360px;
+    }
+    .contenu{
+        width: 320px;
+    }
+}
