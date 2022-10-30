@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "../style/accueil.css";
-import dbz from "../assets/montagne1.jpg"
+import montagne from "../assets/montagne1.jpg"
 import Card from "../components/card";
 import Footer from "../components/footer";
 const Accueil = () => {
@@ -18,7 +18,7 @@ const Accueil = () => {
     return ( 
         <div className="accueil">
             <section className="header">         
-                <img src={dbz} alt='paysage' className="pic" />
+                <img src={montagne} alt='paysage' className="pic" />
                 <p className="sous-titre">Chez vous, <br /> partout et ailleurs</p>
             </section>
             { kasa && <Card kasas={kasa} />}

@@ -14,6 +14,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `Pour connecter la base de donnée au projet suivre les instructions`
+
+ouvrir le terminal:
+    -ouvrir un deuxieme powershell ou node du terminal.
+    -cd kasa.
+    -npx json-server --watch data/db.json --port 5000.
+    -URL:"http://localhost:5000/kasa".
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
