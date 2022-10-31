@@ -28,7 +28,7 @@
 .contenu ul li{
     text-align: left;
 }
-@media screen and (min-width:450px) and (max-width:840px) {
+@media screen and (min-width:454px) and (max-width:840px) {
     .push{
         width: 360px;
     }

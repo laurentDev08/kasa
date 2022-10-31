@@ -26,7 +26,7 @@
 .next{
     right: 10px;
 }
-@media screen and (min-width:450px) and (max-width:840px) {
+@media screen and (min-width:454px) and (max-width:840px) {
     .slideshow{
         height: 250px;
     }

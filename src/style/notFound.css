@@ -17,7 +17,7 @@
     font-size: 20px;
     color: #FF6060;
 }
-@media screen and (min-width:450px) and (max-width:840px){
+@media screen and (min-width:454px) and (max-width:840px){
     .retour{
         position: relative;
         top: 100px;

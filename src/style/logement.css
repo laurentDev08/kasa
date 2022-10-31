@@ -54,7 +54,7 @@
     padding: 5px;
     font-size: 15px;    
 }
-@media screen and (min-width:450px) and (max-width:840px) {
+@media screen and (min-width:454px) and (max-width:840px) {
     .kasaTitre h2 {
         font-size: 18px;
     }

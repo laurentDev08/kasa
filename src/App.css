@@ -75,7 +75,7 @@
 .grey{
   color:grey;
 }
- @media screen and (min-width:450px) and (max-width:840px){
+ @media screen and (min-width:454px) and (max-width:840px){
     .logo{
       font-size: 25px;
     }

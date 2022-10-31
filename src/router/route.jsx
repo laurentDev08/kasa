@@ -21,8 +21,7 @@ const Routeur = () => {
                  <Route path="*">
                     <NotFound/>
                 </Route>
-            </Switch>
-           
+            </Switch>           
         </Router>                    
     );
 }
