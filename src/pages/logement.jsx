@@ -40,7 +40,7 @@ const Logement = () => {
                     <div>                           
                         <div className="host">
                             <div className="name"> {kasa.host.name} </div>
-                            <img src={kasa.host.picture} alt="" />                
+                            <img src={kasa.host.picture} alt="hôtes" />                
                         </div>
                         <div className="rateStars">
                             <Stars note = {kasa.rating}/>
