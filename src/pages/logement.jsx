@@ -1,13 +1,15 @@
-import { useParams } from "react-router-dom";
+import { useParams, useHistory } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Slideshow from "../components/slideshow";
 import "../style/logement.css"
-import Details from "../components/details";
+import Accordeon from "../components/accordeon";
 import Footer from "../components/footer";
 import Stars from "../components/stars";
+
 const Logement = () => {
     const {id} =useParams();
     const [kasa, setKasa] = useState(null);
+    const navigate = useHistory();
     useEffect(()=>{
         fetch("http://localhost:5000/kasa")
         .then(res=>{
@@ -15,11 +17,16 @@ const Logement = () => {
         })
         .then(data=>{
             const logementEnCour = data.find((k)=>k.id === id)
+            if(!logementEnCour){
+                // Logement inexistant redirection vers la page 404
+                navigate.push("/404")
+            }
             setKasa(logementEnCour);
         })
     })
     if(!kasa)return <div>
         Loading...
+        
     </div>
     return (
         <div>
@@ -41,8 +48,8 @@ const Logement = () => {
                     </div>
             </div> 
             <div className="accord">               
-                    <Details titre="Description" contenu = {kasa.description} className="descript"/>                          
-                     <Details titre="Equipements" contenu = {
+                    <Accordeon titre="Description" contenu = {kasa.description} className="descript"/>                          
+                    <Accordeon titre="Equipements" contenu = {
                         <ul>
                             {kasa.equipments.map((equipment,index)=>
                             <li key={index} >{equipment}</li>)}

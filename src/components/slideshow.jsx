@@ -20,9 +20,9 @@ const Slideshow = ( {cover,gallery} ) => {
     }
     return (
         <div className="slideshow">
-            <button className="prev" onClick={prev}><i className="fa-solid fa-chevron-left"></i></button>
-            <img src={index < 0 ? cover:gallery[index]} alt="" />
-            <button className="next" onClick={next}><i className="fa-solid fa-chevron-right"></i></button>
+            {gallery.length > 1 && <button className="prev" onClick={prev}><i className="fa-solid fa-chevron-left"></i></button>}
+            <img src={index < 0 ? cover:gallery[index]} alt="vue interieur logement" />
+            {gallery.length > 1 && <button className="next" onClick={next}><i className="fa-solid fa-chevron-right"></i></button>}
         </div>
     );
 }

@@ -6,7 +6,7 @@ const Propos = () => {
     return (
         <div>
             <section className="header">         
-                <img src={montagne2} alt='paysage' className="pic" />
+                <img src={montagne2} alt='montagne' className="pic" />
                    <DropDown/>             
             </section>
             <Footer/>

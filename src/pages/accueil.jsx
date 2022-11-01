@@ -18,7 +18,7 @@ const Accueil = () => {
     return ( 
         <div className="accueil">
             <section className="header">         
-                <img src={montagne} alt='paysage' className="pic" />
+                <img src={montagne} alt='montagne' className="pic" />
                 <p className="sous-titre">Chez vous, <br /> partout et ailleurs</p>
             </section>
             { kasa && <Card kasas={kasa} />}

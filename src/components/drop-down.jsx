@@ -2,7 +2,7 @@ import Accordeon from "./accordeon";
 
 const DropDown = () => {
     return (
-        <div>                   
+        <div className="drop-down">                   
             <Accordeon titre = "Fiabilité" contenu={`Les annonces postées sur KASA garantissent une fiabilité totale.
                             Les photos sont confromées aux logements, et toutes les informations
                             sont réguliérements vérifiéees par nos équipes.`} />

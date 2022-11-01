@@ -1,3 +1,4 @@
+
 .content-text{
     padding: 20px;
     width: 1023px;
@@ -6,16 +7,18 @@
     top: 20px;
 }
 .content-btn{
+    box-sizing: border-box;
     padding: 20px;
-    width: 1023px;
+    width: 100%;
     display: inline-block;
-    position: relative;
-    top: 20px;
-    left: 80px;
+}
+.drop-down{
+    width: 80%;
+    margin: auto;
 }
 .btn{
     cursor: pointer;
-    width: 1023px;
+    width: 100%;
     height: 47px;
     background-color: #FF6060;
     color: white;
@@ -40,16 +43,18 @@
     cursor: pointer;
 }
 .text{
+    box-sizing: border-box;
+    width: 100%;
     color:#FF6060;
     background-color: rgb(246, 246, 246);
     padding: 20px;
     border-radius: 5px;    
 }
 .text p{
-    text-align: start;
-    width: 900px;
+    text-align: left;
     padding-top: 10px;
 }
+
 @media screen and (min-width:454px) and (max-width:840px){
     .content-btn{
         position: relative;
