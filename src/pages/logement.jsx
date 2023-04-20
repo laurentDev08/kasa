@@ -11,7 +11,7 @@ const Logement = () => {
     const [kasa, setKasa] = useState(null);
     const navigate = useHistory();
     useEffect(()=>{
-        fetch("http://localhost:5000/kasa")
+        fetch("https://kasa-35nx.onrender.com/kasa")
         .then(res=>{
             return res.json()
         })
