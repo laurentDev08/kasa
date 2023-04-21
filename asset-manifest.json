@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/kasa/static/css/main.bdb60f4a.css",
+    "main.js": "/kasa/static/js/main.d3c69e07.js",
+    "static/js/787.0ce615c0.chunk.js": "/kasa/static/js/787.0ce615c0.chunk.js",
+    "static/media/montagne1.jpg": "/kasa/static/media/montagne1.f863e09c667b80b0780a.jpg",
+    "static/media/montagne2.jpg": "/kasa/static/media/montagne2.bf06298e6b7c69470b43.jpg",
+    "index.html": "/kasa/index.html",
+    "main.bdb60f4a.css.map": "/kasa/static/css/main.bdb60f4a.css.map",
+    "main.d3c69e07.js.map": "/kasa/static/js/main.d3c69e07.js.map",
+    "787.0ce615c0.chunk.js.map": "/kasa/static/js/787.0ce615c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdb60f4a.css",
+    "static/js/main.d3c69e07.js"
+  ]
+}
